@@ -1,0 +1,36 @@
+{
+  "name": "teleportation",
+  "version": "1.0.0",
+  "description": "Reactjs component library",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/esm/index.d.ts",
+  "scripts": {
+    "build": "npm run build:esm && npm run build:cjs",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module commonjs --outDir dist/cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dilarauluturhan/teleportation"
+  },
+  "keywords": [
+    "reactjs",
+    "typescript",
+    "component",
+    "button",
+    "library"
+  ],
+  "author": "Dilara Uluturhan (dilarauluturhan)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dilarauluturhan/teleportation"
+  },
+  "homepage": "https://github.com/dilarauluturhan/teleportation",
+  "devDependencies": {
+    "@types/react": "^18.2.48",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.3.3"
+  }
+}
